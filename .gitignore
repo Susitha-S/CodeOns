@@ -1,0 +1,70 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# --- Distribution / packaging ---
+*.whl
+*.tar.gz
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Data files (keep sample data, ignore large/sensitive datasets) ---
+data/*.csv
+!data/input.csv
+data/*.tsv
+data/*.parquet
+data/*.json
+data/*.xlsx
+data/*.feather
+data/*.h5
+data/*.hdf5
+data/*.pkl
+data/*.pickle
+
+# --- Output / results ---
+output/
+results/
+*.out
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Pytest / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
