@@ -154,6 +154,27 @@ CodeOns applied to a real public GitHub repository: [joeyajames/Python](https://
 | Works on any language/repo | No (manual effort) | Yes (reusable skill) |
 
 ---
+## Verified Output
+
+Running `python run.py` on the sample dataset produces:
+
+```text
+rows=10 | dropped=0 | usable=10
+cols: ['a', 'b', 'c', 'd', 'e']
+sig pairs:
+  ('a', 'b') => 0.7769
+  ('a', 'c') => -0.646
+  ('a', 'd') => 0.1389
+  ('a', 'e') => 0.38
+  ('b', 'c') => -0.3441
+  ('b', 'd') => -0.2474
+  ('b', 'e') => 0.1576
+  ('c', 'd') => -0.6079
+  ('c', 'e') => -0.3469
+  ('d', 'e') => 0.2893
+```
+Verified on Python 3.13, pandas 3.0.6, numpy 2.5.3.
+
 
 ## Repository Structure
 
